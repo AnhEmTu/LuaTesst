@@ -1078,7 +1078,7 @@ function UpdateIslandESP()
                         name.TextYAlignment = 'Top'
                         name.BackgroundTransparency = 1
                         name.TextStrokeTransparency = 0.5
-                        name.TextColor3 = Color3.fromRGB(8, 0, 0)
+                        name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     else
                         v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                     end
@@ -1159,15 +1159,15 @@ for i,v in pairs(game.Workspace:GetChildren()) do
                         name.BackgroundTransparency = 1
                         name.TextStrokeTransparency = 0.5
                         if v.Name == "Chest1" then
-                            name.TextColor3 = Color3.fromRGB(109, 109, 109)
+                            name.TextColor3 = Color3.fromRGB(0, 244, 0)
                             name.Text = ("Chest 1" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                         end
                         if v.Name == "Chest2" then
-                            name.TextColor3 = Color3.fromRGB(173, 158, 21)
+                            name.TextColor3 = Color3.fromRGB(0, 244, 0)
                             name.Text = ("Chest 2" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                         end
                         if v.Name == "Chest3" then
-                            name.TextColor3 = Color3.fromRGB(85, 255, 255)
+                            name.TextColor3 = Color3.fromRGB(0, 244, 0)
                             name.Text = ("Chest 3" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                         end
                     else
@@ -1203,7 +1203,7 @@ for i,v in pairs(game.Workspace:GetChildren()) do
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(255, 255, 255)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
                 else
                     v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -1237,14 +1237,14 @@ for i,v in pairs(game.Workspace:GetChildren()) do
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     if v.Name == "Flower1" then 
                         name.Text = ("Blue Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                         name.TextColor3 = Color3.fromRGB(0, 0, 255)
                     end
                     if v.Name == "Flower2" then
                         name.Text = ("Red Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
-                        name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                        name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     end
                 else
                     v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
@@ -1277,7 +1277,7 @@ for i,v in pairs(game.Workspace.AppleSpawner:GetChildren()) do
                 name.TextYAlignment = 'Top'
                 name.BackgroundTransparency = 1
                 name.TextStrokeTransparency = 0.5
-                name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
             else
                 v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..' '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -1307,7 +1307,7 @@ for i,v in pairs(game.Workspace.PineappleSpawner:GetChildren()) do
                 name.TextYAlignment = 'Top'
                 name.BackgroundTransparency = 1
                 name.TextStrokeTransparency = 0.5
-                name.TextColor3 = Color3.fromRGB(255, 174, 0)
+                name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
             else
                 v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..' '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -1337,7 +1337,7 @@ for i,v in pairs(game.Workspace.BananaSpawner:GetChildren()) do
                 name.TextYAlignment = 'Top'
                 name.BackgroundTransparency = 1
                 name.TextStrokeTransparency = 0.5
-                name.TextColor3 = Color3.fromRGB(251, 255, 0)
+                name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
             else
                 v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..' '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -1371,7 +1371,7 @@ function UpdateIslandESP()
                         name.TextYAlignment = 'Top'
                         name.BackgroundTransparency = 1
                         name.TextStrokeTransparency = 0.5
-                        name.TextColor3 = Color3.fromRGB(7, 236, 240)
+                        name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     else
                         v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                     end
@@ -1452,15 +1452,15 @@ for i,v in pairs(game.Workspace:GetChildren()) do
                         name.BackgroundTransparency = 1
                         name.TextStrokeTransparency = 0.5
                         if v.Name == "Chest1" then
-                            name.TextColor3 = Color3.fromRGB(109, 109, 109)
+                            name.TextColor3 = Color3.fromRGB(0, 244, 0)
                             name.Text = ("Chest 1" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                         end
                         if v.Name == "Chest2" then
-                            name.TextColor3 = Color3.fromRGB(173, 158, 21)
+                            name.TextColor3 = Color3.fromRGB(0, 244, 0)
                             name.Text = ("Chest 2" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                         end
                         if v.Name == "Chest3" then
-                            name.TextColor3 = Color3.fromRGB(85, 255, 255)
+                            name.TextColor3 = Color3.fromRGB(0, 244, 0)
                             name.Text = ("Chest 3" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
                         end
                     else
@@ -1496,7 +1496,7 @@ for i,v in pairs(game.Workspace:GetChildren()) do
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(255, 255, 255)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
                 else
                     v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -1530,14 +1530,14 @@ for i,v in pairs(game.Workspace:GetChildren()) do
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     if v.Name == "Flower1" then 
                         name.Text = ("Blue Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
-                        name.TextColor3 = Color3.fromRGB(0, 0, 255)
+                        name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     end
                     if v.Name == "Flower2" then
                         name.Text = ("Red Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
-                        name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                        name.TextColor3 = Color3.fromRGB(0, 244, 0)
                     end
                 else
                     v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' Distance')
@@ -1570,7 +1570,7 @@ for i,v in pairs(game.Workspace.AppleSpawner:GetChildren()) do
                 name.TextYAlignment = 'Top'
                 name.BackgroundTransparency = 1
                 name.TextStrokeTransparency = 0.5
-                name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
             else
                 v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..' '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -1600,7 +1600,7 @@ for i,v in pairs(game.Workspace.PineappleSpawner:GetChildren()) do
                 name.TextYAlignment = 'Top'
                 name.BackgroundTransparency = 1
                 name.TextStrokeTransparency = 0.5
-                name.TextColor3 = Color3.fromRGB(255, 174, 0)
+                name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
             else
                 v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..' '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -1630,7 +1630,7 @@ for i,v in pairs(game.Workspace.BananaSpawner:GetChildren()) do
                 name.TextYAlignment = 'Top'
                 name.BackgroundTransparency = 1
                 name.TextStrokeTransparency = 0.5
-                name.TextColor3 = Color3.fromRGB(251, 255, 0)
+                name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
             else
                 v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..' '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' Distance')
@@ -1664,11 +1664,11 @@ while wait() do
                         BillboardGui.StudsOffset = Vector3.new(0, 2.5, 0)
 
                         TextLabel.Parent = BillboardGui
-                        TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                        TextLabel.BackgroundColor3 = Color3.fromRGB(0, 244, 0)
                         TextLabel.BackgroundTransparency = 1.000
                         TextLabel.Size = UDim2.new(0, 200, 0, 50)
                         TextLabel.Font = Enum.Font.GothamBold
-                        TextLabel.TextColor3 = Color3.fromRGB(7, 236, 240)
+                        TextLabel.TextColor3 = Color3.fromRGB(0, 244, 0)
                         TextLabel.Text.Size = 35
                     end
                     local Dis = math.floor((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude)
@@ -1706,11 +1706,11 @@ while wait() do
                         BillboardGui.StudsOffset = Vector3.new(0, 2.5, 0)
 
                         TextLabel.Parent = BillboardGui
-                        TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                        TextLabel.BackgroundColor3 = Color3.fromRGB(0, 244, 0)
                         TextLabel.BackgroundTransparency = 1.000
                         TextLabel.Size = UDim2.new(0, 200, 0, 50)
                         TextLabel.Font = Enum.Font.GothamBold
-                        TextLabel.TextColor3 = Color3.fromRGB(7, 236, 240)
+                        TextLabel.TextColor3 = Color3.fromRGB(0, 244, 0)
                         TextLabel.Text.Size = 35
                     end
                     local Dis = math.floor((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude)
@@ -1748,11 +1748,11 @@ while wait() do
                         BillboardGui.StudsOffset = Vector3.new(0, 2.5, 0)
 
                         TextLabel.Parent = BillboardGui
-                        TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                        TextLabel.BackgroundColor3 = Color3.fromRGB(0, 244, 0)
                         TextLabel.BackgroundTransparency = 1.000
                         TextLabel.Size = UDim2.new(0, 200, 0, 50)
                         TextLabel.Font = Enum.Font.GothamBold
-                        TextLabel.TextColor3 = Color3.fromRGB(7, 236, 240)
+                        TextLabel.TextColor3 = Color3.fromRGB(0, 244, 0)
                         TextLabel.Text.Size = 35
                     end
                     local Dis = math.floor((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude)
@@ -1798,7 +1798,7 @@ for i,v in pairs(game:GetService("Workspace")["_WorldOrigin"].Locations:GetChild
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(80, 245, 245)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 else
                     v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
                 end
@@ -1840,7 +1840,7 @@ for i,v in pairs(game:GetService("Workspace").NPCs:GetChildren()) do
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(80, 245, 245)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 else
                     v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
                 end
@@ -1874,7 +1874,7 @@ for i,v in pairs(game:GetService("Workspace").NPCs:GetChildren()) do
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(80, 245, 245)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 else
                     v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
                 end
@@ -1908,7 +1908,7 @@ for i,v in pairs(game:GetService("Workspace").NPCs:GetChildren()) do
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(80, 245, 245)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 else
                     v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
                 end
@@ -1942,7 +1942,7 @@ for i,v in pairs(game:GetService("Workspace").Map.MysticIsland:GetChildren()) do
                     name.TextYAlignment = 'Top'
                     name.BackgroundTransparency = 1
                     name.TextStrokeTransparency = 0.5
-                    name.TextColor3 = Color3.fromRGB(80, 245, 245)
+                    name.TextColor3 = Color3.fromRGB(0, 244, 0)
                 else
                     v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
                 end
@@ -3643,7 +3643,7 @@ local boss = Tabs.Main:AddSection("Farm Boss")
                             name.TextYAlignment = 'Top'
                             name.BackgroundTransparency = 1
                             name.TextStrokeTransparency = 0.5
-                            name.TextColor3 = Color3.fromRGB(80, 245, 245)
+                            name.TextColor3 = Color3.fromRGB(0, 244, 0)
                         else
                             v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
                         end
@@ -6863,7 +6863,7 @@ Tabs.Misc:AddButton({
 		Name.Parent = game:GetService("Players").LocalPlayer.PlayerGui.Main.Beli
 		Name.Position = UDim2.new(0, 0, -1.5, 0)
 		Name.Size = UDim2.new(1, 0, 1, 0)
-		Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Name.TextColor3 = Color3.fromRGB(0, 244, 0)
 		Name.Text = game.Players.LocalPlayer.Name
 	
 		local Fragments = game:GetService("Players").LocalPlayer.PlayerGui.Main.Fragments:Clone()
