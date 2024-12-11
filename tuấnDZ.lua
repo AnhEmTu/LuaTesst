@@ -6719,11 +6719,11 @@ Tabs.Misc:AddButton({
 		local Items = {}
 		local RaityLevel = { "Mythical", "Legendary", "Rare", "Uncommon", "Common" }
 		local RaityColor = {
-			["Common"] = Color3.fromRGB(179, 179, 179),
-			["Uncommon"] = Color3.fromRGB(92, 140, 211),
-			["Rare"] = Color3.fromRGB(140, 82, 255),
+			["Common"] = Color3.fromRGB(0, 244, 0),
+			["Uncommon"] = Color3.fromRGB(0, 244, 0),
+			["Rare"] = Color3.fromRGB(0, 244, 0),
 			["Legendary"] = Color3.fromRGB(0, 244, 0),
-			["Mythical"] = Color3.fromRGB(238, 47, 50)
+			["Mythical"] = Color3.fromRGB(0, 244, 0)
 		}
 		function GetRaity(color)
 			for k, v in pairs(RaityColor) do
